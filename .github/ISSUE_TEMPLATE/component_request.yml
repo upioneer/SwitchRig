@@ -1,0 +1,94 @@
+name: Arcade & Hardware Component Request
+description: Request a new pushbutton, toggle switch, rotary encoder, or telemetry display footprint
+title: "[COMPONENT]: "
+labels: ["component-request", "hardware"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Request a new physical sim racing or arcade component footprint for the SwitchRig Studio catalog.
+  - type: input
+    id: component_brand
+    attributes:
+      label: Manufacturer / Brand
+      description: Who makes this component?
+      placeholder: e.g. Sanwa Denshi, Seimitsu, Crown / Samducksa, NKK, Alps, Bourns
+    validations:
+      required: true
+  - type: input
+    id: component_model
+    attributes:
+      label: Model Name & Number
+      description: What is the specific product code or model?
+      placeholder: e.g. OBSN-30, SDB-202M, PEC11R-4215F-S0024
+    validations:
+      required: true
+  - type: dropdown
+    id: component_category
+    attributes:
+      label: Component Category
+      options:
+        - Arcade Pushbutton (Snap-In)
+        - Arcade Pushbutton (Screw-In Threaded)
+        - Industrial / Vandal Pushbutton
+        - Rotary Encoder / Continuous Detent
+        - Rotary Selector Switch (Multi-Position)
+        - Toggle Switch (Miniature / Standard / Heavy-Duty)
+        - Missile Safety Flip Canopy Switch
+        - Digital OLED / LCD Display
+        - LED Shift Light Bar / Matrix
+        - Key Switch (Cherry MX / Kailh / Gateron)
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: cutout_diameter
+    attributes:
+      label: Cutout Hole Diameter or Dimensions (mm)
+      description: What hole needs to be cut into the faceplate?
+      placeholder: e.g. 24.0mm, 30.0mm, 12.0mm, or 28mm x 19mm rectangular
+    validations:
+      required: true
+  - type: input
+    id: keepout_diameter
+    attributes:
+      label: Exterior Keep-Out / Bezel Flange Diameter (mm)
+      description: Maximum outer boundary envelope of the component face.
+      placeholder: e.g. 33.5mm
+    validations:
+      required: false
+  - type: input
+    id: internal_depth
+    attributes:
+      label: Under-Panel Depth Clearance (mm)
+      description: Depth needed behind the faceplate to clear switch body and wiring terminals.
+      placeholder: e.g. 32.0mm body + 8mm crimp terminals
+    validations:
+      required: false
+  - type: dropdown
+    id: terminal_type
+    attributes:
+      label: Wiring Terminal Connection Style
+      options:
+        - 2.8mm Quick Disconnect Spade (.110 in)
+        - 4.8mm Quick Disconnect Spade (.187 in)
+        - 6.3mm Quick Disconnect Spade (.250 in)
+        - Solder Lug
+        - Screw Terminal
+        - PCB Pin Header (2.54mm pitch)
+        - JST Connector
+    validations:
+      required: false
+  - type: input
+    id: datasheet_url
+    attributes:
+      label: Manufacturer Datasheet / Technical Drawing URL
+      description: Link to mechanical dimensional drawing, PDF, or shop listing.
+      placeholder: https://...
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: Explain why this component would benefit the sim racing and arcade community.

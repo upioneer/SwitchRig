@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Launch SwitchRig Studio
+    url: https://switchrigapp.com
+    about: Open the interactive 2D/3D button box CAD design studio.
+  - name: GitHub Discussions
+    url: https://github.com/upioneer/SwitchRig/discussions
+    about: Ask questions, share completed builds, and discuss sim racing DIY cockpits.

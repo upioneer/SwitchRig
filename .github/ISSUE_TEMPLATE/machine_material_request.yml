@@ -1,0 +1,49 @@
+name: Machine Preset & Material Request
+description: Request a new laser cutter, CNC router, 3D printer, or fabrication material preset
+title: "[PRESET]: "
+labels: ["preset-request", "materials", "machines"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Request a new laser cutter machine envelope, CNC router profile, 3D printer spec, or material definition.
+  - type: dropdown
+    id: request_type
+    attributes:
+      label: Request Type
+      options:
+        - Laser Cutter Machine Preset
+        - CNC Router Machine Preset
+        - 3D Printer Machine Preset
+        - Sheet Material (Cast Acrylic, Plywood, Composite)
+        - 3D Printing Filament / Polymer
+    validations:
+      required: true
+  - type: input
+    id: item_name
+    attributes:
+      label: Name & Make / Manufacturer
+      description: Specific machine model or material brand and name.
+      placeholder: e.g. OmTech 60W CO2, Bambu Lab A1 Mini, Rowmark ColorHues Acrylic
+    validations:
+      required: true
+  - type: input
+    id: bed_dimensions
+    attributes:
+      label: Working Bed Envelope / Thickness (mm)
+      description: For machines: X and Y cutting bed dimensions. For materials: nominal thicknesses.
+      placeholder: e.g. Bed: 500mm x 300mm, or Material: 3.0mm & 4.5mm
+    validations:
+      required: false
+  - type: input
+    id: kerf_or_tool
+    attributes:
+      label: Typical Kerf or Tool Diameter (mm)
+      placeholder: e.g. 0.15mm laser kerf, or 3.175mm (1/8 inch) endmill
+    validations:
+      required: false
+  - type: textarea
+    id: specifications
+    attributes:
+      label: Specifications & Links
+      description: Provide links to manufacturer specifications or cutting guidelines.

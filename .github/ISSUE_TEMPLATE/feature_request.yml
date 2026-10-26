@@ -1,0 +1,54 @@
+name: Feature & Studio Enhancement Request
+description: Propose a new feature, CAD workflow tool, or design engine capability for SwitchRig Studio
+title: "[FEATURE]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve SwitchRig Studio! Please describe the feature you would like to see added.
+  - type: dropdown
+    id: feature_area
+    attributes:
+      label: Feature Area
+      options:
+        - 2D Canvas & Layout Tools (Align, Distribute, Polar Array, Grid Snapping)
+        - 3D Viewport & Visualizer (PBR Materials, Lighting, Exploded View, Animation)
+        - Parametric Enclosure Geometry (New box topologies, tabs, mounting flanges)
+        - Design Rule Check (DRC) Engine (New manufacturing or collision checks)
+        - CAD / CAM Export (DXF, SVG, STEP, STL, LightBurn, Fusion 360)
+        - Bill of Materials (BOM) & Electrical Estimator
+        - Audio & Tactile Simulation
+        - User Interface & Workflow
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem_statement
+    attributes:
+      label: Problem Statement / Context
+      description: Is your feature request related to a specific problem or workflow limitation?
+      placeholder: I frequently design enclosures where... and currently it is difficult to...
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed Solution
+      description: Describe what you would like SwitchRig Studio to do.
+      placeholder: Add a button or setting that allows...
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternative Workarounds Considered
+      description: Have you considered or used any alternative solutions?
+      placeholder: Currently I export to DXF and manually offset in CAD...
+    validations:
+      required: false
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional Context & Mockups
+      description: Attach sketches, CAD screenshots, or references to existing CAD software tools.
