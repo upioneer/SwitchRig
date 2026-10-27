@@ -1,7 +1,6 @@
 # SwitchRig App
 
 [![SwitchRig App](https://img.shields.io/badge/Web_App-switchrigapp.com-0284c7?style=flat-square)](https://switchrigapp.com)
-[![Version](https://img.shields.io/badge/Release-v0.6.0-3b82f6?style=flat-square)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/License-All_Rights_Reserved-dc2626?style=flat-square)](LICENSE.md)
 [![Community Issues](https://img.shields.io/badge/Community-Issues_&_Hardware_Requests-8b5cf6?style=flat-square)](../../issues)
 
@@ -33,6 +32,15 @@ Radial and axial exploded views to inspect interlocking finger tabs, captive nut
 
 <p align="center">
   <img src="assets/switchrig_3d_exploded.png" alt="SwitchRig 3D Exploded View" width="100%" />
+</p>
+
+### Mobile-First Responsive CAD Experience
+Explore custom designs, actuate switches, and inspect exploded assemblies full-bleed on mobile devices with thumb-friendly off-canvas configuration and inspection drawers.
+
+<p align="center">
+  <img src="assets/switchrig_mobile_viewport.png" alt="SwitchRig Mobile Full-Bleed Viewport" width="48%" />
+  &nbsp;
+  <img src="assets/switchrig_mobile_drawer.png" alt="SwitchRig Mobile Off-Canvas Drawer" width="48%" />
 </p>
 
 ---
