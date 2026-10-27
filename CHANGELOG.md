@@ -4,6 +4,21 @@ All notable changes, manufacturing updates, and component catalog additions to S
 
 ---
 
+## [v0.8.1] (October 27, 2026)
+
+### Added
+* Mobile Viewport-First Off-Canvas Drawers: Complete mobile responsiveness giving phones and tablets a full-bleed 100% width 3D and 2D canvas by default.
+* Floating Mobile Action Pills: Thumb-accessible floating action pills (Configure and Inspect) on mobile for on-demand access to design steps and component inspection with active DRC warning badges.
+* Single-Drawer Mutual Exclusivity: Strictly permits only one sidebar open at a time on mobile to maximize viewport visibility and eliminate UI overlap.
+
+### Fixed
+* Mobile Modal Clipping: Resolved height overflow in Welcome, Matrix, and Custom Laser modals with dynamic mobile viewport height (100dvh) and independent scrolling containers.
+* Mobile Viewport Compression: Fixed layout defect where fixed 320px left and right docks previously crushed the center viewport to 0px on mobile screens.
+* Mobile Touch Targets: Upgraded all primary buttons across mobile modals to meet the 48px touch target standard.
+* Horizontal Canvas Overflow: Converted sidebar widths to fluid relative units preventing side-scroll overflow on narrow screens.
+
+---
+
 ## [v0.8.0] (October 26, 2026)
 
 ### Added
