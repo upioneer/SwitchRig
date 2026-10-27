@@ -1,20 +1,20 @@
-# SwitchRig Button Box Studio
+# SwitchRig App
 
-[![SwitchRig Studio](https://img.shields.io/badge/Web_App-switchrigapp.com-0284c7?style=flat-square)](https://switchrigapp.com)
+[![SwitchRig App](https://img.shields.io/badge/Web_App-switchrigapp.com-0284c7?style=flat-square)](https://switchrigapp.com)
 [![Version](https://img.shields.io/badge/Release-v0.6.0-3b82f6?style=flat-square)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/License-All_Rights_Reserved-dc2626?style=flat-square)](LICENSE.md)
 [![Community Issues](https://img.shields.io/badge/Community-Issues_&_Hardware_Requests-8b5cf6?style=flat-square)](../../issues)
 
-SwitchRig Button Box Studio is an in-browser parametric CAD studio, component layout engine, and Design for Manufacturing (DFM) verification platform for custom sim racing button boxes, flight simulator flight decks, and macro controllers.
+SwitchRig App is an in-browser parametric CAD studio, component layout engine, and Design for Manufacturing (DFM) verification platform for custom sim racing button boxes, flight simulator flight decks, and macro controllers.
 
 * **Live Web Application:** [switchrigapp.com](https://switchrigapp.com)
 * **Official Community & Issue Tracker:** Public repository for bug reporting, component footprint requests, machine profiles, and release changelogs.
 
 ---
 
-## Studio Showcase
+## App Showcase
 
-### Interactive 3D Assembly Studio
+### Interactive 3D Assembly Viewport
 Real-time WebGL rendering featuring physical material finishes (carbon fiber weave, gloss acrylics, Baltic birch, anodized aluminum), interactive tactile switch actuation, and live audio synthesis.
 
 <p align="center">
@@ -78,7 +78,7 @@ Radial and axial exploded views to inspect interlocking finger tabs, captive nut
 
 ## Community, Issue Reports & Hardware Requests
 
-This repository serves as the public community hub for SwitchRig Button Box Studio.
+This repository serves as the public community hub for SwitchRig App.
 
 * **Report a Bug:** Found a collision detection bug, CAD export misalignment, or browser rendering issue? [Open a Bug Report](../../issues/new?template=bug_report.yml).
 * **Propose a Studio Feature:** Have an idea for a new CAD layout tool, export capability, or DRC check? [Submit a Feature Proposal](../../issues/new?template=feature_request.yml).

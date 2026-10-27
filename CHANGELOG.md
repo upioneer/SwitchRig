@@ -1,6 +1,48 @@
-﻿# SwitchRig Button Box Studio Changelog
+﻿# SwitchRig App Changelog
 
-All notable changes, manufacturing updates, and component catalog additions to SwitchRig Button Box Studio are documented in this file.
+All notable changes, manufacturing updates, and component catalog additions to SwitchRig App are documented in this file.
+
+---
+
+## [v0.8.0] (October 26, 2026)
+
+### Added
+* 3D Internal Wire Harness Simulation: Procedural silicone wire harness connecting hardware terminals to an onboard microcontroller with red ground and multi-color signal routing, enabled by default in 3D views.
+* Multi-Surface Markings & Custom Branding: Support for custom laser etch and CNC V-carve markings across all 6 enclosure faces (front, top, bottom, left, right, rear) resting flush on panel faces.
+* Custom Border Framing Modes: Laser and CNC machinable vector border styles (Underline, Outline Rectangle, and Pill Contour) with zero solid area fills.
+* Procedural QR Code Generator: Vector QR matrix generator allowing users to embed live telemetry links, pinouts, or documentation URLs directly onto fabrication sheets and 3D models.
+* Typography Engine: Integrated Google Web Fonts library supporting modern sans, cockpit monospace, industrial stencil, and racing display typefaces.
+* Markings Design Rule Check (DRC): Real-time collision detection verifying clearance between custom text/QR markings and component cutouts with 1-click automatic repositioning.
+
+### Improved
+* High-Performance 60fps GPU Explode Easing: Completely decoupled axial explosion kinematics and range slider scrubbing from 3D CAD mesh geometry rebuilds, delivering locked 60fps motion without frame drops.
+* Missile Safety Canopy Kinematics: Canopy open/closed settings persist seamlessly across viewport transitions, animating closed in assembled view and open in exploded view.
+* 2D & 3D Markings Alignment: Synchronized text/QR positioning, scale, and rotations between 2D vector CAD workplanes and 3D Three.js decals.
+
+### Fixed
+* Net-New Exploded View State: Corrected issue where new sessions in exploded view mode defaulted to 0% assembled view rather than the default 45% explosion span.
+* Text Overlap in Demo Template: Resolved collision where adjacent switches shared overlapping default label spaces.
+
+---
+
+## [v0.7.0] (October 26, 2026)
+
+### Added
+* Blueprint Dimension Overlay: Added an interactive toggle across 2D CAD and 3D Studio views rendering high contrast dimensional callout badges.
+* SketchUp Style Dimension Bookends: Procedural dimension lines with bookend ticks detailing Width, Height, and Thickness for individual faceplates, walls, and rear panels.
+* Enhanced Readout Legibility: Dimension callout badges and witness text default to larger bold typography for immediate legibility at standard zoom levels.
+* v0.1.0 Changelog Archive: Backfilled immutable history documentation for v0.1.0 in the public community repository.
+
+### Improved
+* Cockpit Monospace Header Branding: Restyled brand wordmark with clean Cockpit Monospace typography presenting SWITCH RIG in pure white with de-emphasized domain styling.
+* 2D CAD Workspace Spacing: Re-spaced top viewport toolbar to eliminate collision between the New Template launcher and the floating scale indicator.
+* Dynamic Silkscreen Label Placement: Programmatic positioning engine prevents component labels such as RPM and Shift lights from overlapping adjacent hardware on any custom box layout.
+* Nested Cut Sheet Packing: Resolved part collision between spare fastener rings and the rear panel in the master cut sheet nesting view.
+
+### Fixed
+* Cut Sheet Vector Etch Lines: Eliminated superfluous horizontal blue etch guide lines on the front faceplate and master vector cut sheets.
+* Cut Sheet Faceplate Orientation: Corrected inverted vertical orientation of the front faceplate on fabrication cut sheets.
+* Dimension Line Corner Junctions: Simplified 2D Width and Height dimension lines to a clean 90-degree intersection with zero slash ticks or ornamental gaps.
 
 ---
 
@@ -74,6 +116,18 @@ All notable changes, manufacturing updates, and component catalog additions to S
 * Parametric Corner Geometry: Configurable square corners and rounded fillets.
 * 3-Tab Studio Inspector Dock: Unified sidebar for Design Rule Checks (DRC), Bill of Materials (BOM), and Component Library.
 * Magnetic Snap Mounting Ears: 8020 aluminum extrusion mounting flanges with edge snap alignment.
+
+---
+
+## [v0.1.0] (October 24, 2026)
+
+### Added
+* Parametric Sim Rig Button Box Studio: Interactive 2D vector CAD canvas and 3D WebGL viewport for designing bespoke sim racing button boxes.
+* Arcade and Industrial Component Library: Parametric footprints for Sanwa OBSF series, Seimitsu, heavy-duty toggle switches, rotary encoders, missile safety switches, and OLED telemetry displays.
+* Live Design Rule Check (DRC) Engine: Real-time validation for component collisions, keep-out boundary margins, faceplate thickness compatibility, and machine bed limits.
+* Electrical and GPIO Budgeting Engine: Dynamic electrical analysis calculating digital inputs, rotary encoder pulse channels, matrix diode grids, and 5V USB power consumption.
+* Fabrication Faceplate Export: Production-grade vector SVG faceplate exports with configurable beam kerf compensation, raster text engraving, and precision inner and outer cut layers.
+* Microcontroller Wiring Companion: Interactive physical pinout checklist and rear wiring schematics supporting Raspberry Pi RP2040, Arduino Pro Micro, and Zero-Delay USB encoders.
 
 ---
 

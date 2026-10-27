@@ -1,6 +1,6 @@
-# Contributing to SwitchRig Button Box Studio
+# Contributing to SwitchRig App
 
-Thank you for contributing to SwitchRig Button Box Studio. This public repository serves as the community hub for bug reporting, feature proposals, and hardware footprint requests.
+Thank you for contributing to SwitchRig App. This public repository serves as the community hub for bug reporting, feature proposals, and hardware footprint requests.
 
 ---
 
