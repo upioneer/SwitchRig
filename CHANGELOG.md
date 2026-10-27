@@ -4,6 +4,23 @@ All notable changes, manufacturing updates, and component catalog additions to S
 
 ---
 
+## [v0.8.3] (October 27, 2026)
+
+### Improved
+* Responsive Mobile Menu Bar: Redesigned the top navigation into a clean two-tier layout on compact screens, displaying brand identity, quick actions, and all five workspace modes simultaneously without overlapping controls.
+* Mobile Sidebar Access: Added dedicated Setup and Inspect buttons directly to the mobile navigation bar, providing instantaneous one-tap access to component configuration and design rule diagnostics.
+* Default Viewport Framing: Optimized initial 3D camera distance and 2D canvas scale on mobile devices, ensuring complete enclosure assemblies and mounting flanges remain fully visible with generous margins upon loading.
+* Touchscreen Status Bar: Streamlined bottom status readouts and explosion spread controls on mobile screens, preserving tactile switch actuation feedback without crowding cookie preference or audio toggles.
+
+### Fixed
+* Viewport Control Collision: Resolved an issue where the template selector overlapped floating camera angle presets on mobile screens.
+* Floating Bar Clipping: Corrected an off-screen overflow defect where the 3D view preset bar extended beyond the left viewport boundary on compact viewports.
+* Modal Action Button Fit: Corrected welcome modal card constraints so action buttons fit cleanly inside card borders without protruding below margins.
+* Nested Cut Sheet Collapse: Resolved a flexbox shrinking issue in the nesting view that caused the laser machine bed to compress on mobile displays.
+* Mirrored Wiring Framing: Corrected vertical positioning in the wiring companion view to prevent top-level diagram clipping on mobile phones.
+
+---
+
 ## [v0.8.2] (October 27, 2026)
 
 ### Improved
