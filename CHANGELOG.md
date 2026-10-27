@@ -4,6 +4,19 @@ All notable changes, manufacturing updates, and component catalog additions to S
 
 ---
 
+## [v0.8.2] (October 27, 2026)
+
+### Improved
+* Landing Modal Layout: Optimized card proportions across mobile and desktop displays so both the GT3 demo and blank enclosure options present clean, equal-height layouts with full text and action button visibility.
+* Mobile Modal Scrolling: Ensured reliable vertical scrolling on mobile phones across all configuration dialogs without clipping or overlapping content.
+* Privacy Banner Layering: Refined z-index stacking so the consent notice remains accessible without obstructing active design dialogs.
+
+### Fixed
+* Card Collapse Defect: Resolved an issue where the recommended GT3 demo card collapsed to a narrow strip on mobile devices.
+* Modal Flex Shrinkage: Corrected flexbox scroll behavior to prevent modal bodies from resisting scroll activation on compact touchscreens.
+
+---
+
 ## [v0.8.1] (October 27, 2026)
 
 ### Added
