@@ -4,6 +4,27 @@ All notable changes, manufacturing updates, and component catalog additions to S
 
 ---
 
+## [v0.9.0] (October 28, 2026)
+
+### Added
+* Privacy Policy Page: New dedicated `/privacy` route with consent plumbing and sitemap refresh.
+* X-Ray Shell View: New floating-dock toggle that ghosts enclosure walls and rear panel in 3D views (off by default).
+* LED Halo Color Picker: Stainless hardware now offers a ring-LED color picker (red, green, blue, amber, white).
+* LED Telemetry Animations: WS2812B matrices play a rotating demo sequence â€” proximity side bars, yellow flag, red flag, and RPM sweep.
+* Recommended-Path Pulse: The welcome modal's demo button glows to guide first-time users.
+
+### Improved
+* Explode Slider Dock: The explosion control lives in the floating viewport dock with a layout-stable design across assembled and exploded views.
+* Demo GT3 Box Refresh: Added twist-release E-stop, ABS button pair, QR codes on both side frames, and a deeper 64mm enclosure.
+* Stainless Vandal Buttons: Rebuilt as brushed stainless steel with flat actuators and recessed illuminated halo rings; body colors and finishes no longer apply to metal hardware.
+* E-Stop Model: Added the missing plunger stalk connecting the mushroom dome to the collar.
+
+### Fixed
+* Explode Slider Bounce-Back: Resolved an issue where dragging the slider to 0% (or any value below 20%) snapped back to 45% on hold or release.
+* Mobile Dock Overflow: Resolved floating-dock collisions on compact viewports caused by the wider toggle row.
+
+---
+
 ## [v0.8.3] (October 27, 2026)
 
 ### Improved
